@@ -1,6 +1,5 @@
 from google.adk import Agent
 
-
 root_agent = Agent(
     name="backlog_manager",
     description="Helps the user decide what to play from Warframe, Necesse, and Civ 6.",
