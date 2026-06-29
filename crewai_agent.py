@@ -1,8 +1,8 @@
-from crewai import Agent, Crew, LLM, Task
+from crewai import Agent, Crew, Task
+from langchain_community.chat_models import ChatOllama
 
-
-local_llm = LLM(
-    model="ollama/llama3.2:3b",
+local_llm = ChatOllama(
+    model="llama3.2:3b",
     base_url="http://localhost:11434",
 )
 
